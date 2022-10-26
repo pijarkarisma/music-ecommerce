@@ -24,6 +24,7 @@ return new class extends Migration
             $table->unsignedBigInteger('inventory_id');
             $table->foreign('inventory_id')->references('id')->on('inventory');
 
+            
             $table->integer('price');
             $table->string('image_path');
             $table->timestamps();
