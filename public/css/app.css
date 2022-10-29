@@ -521,6 +521,15 @@ video {
 .mb-1 {
   margin-bottom: 0.25rem;
 }
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mt-7 {
+  margin-top: 1.75rem;
+}
+.mt-11 {
+  margin-top: 2.75rem;
+}
 .flex {
   display: flex;
 }
@@ -611,6 +620,9 @@ video {
 .gap-y-8 {
   row-gap: 2rem;
 }
+.gap-y-10 {
+  row-gap: 2.5rem;
+}
 .overflow-hidden {
   overflow: hidden;
 }
@@ -661,6 +673,15 @@ video {
 }
 .p-16 {
   padding: 4rem;
+}
+.p-24 {
+  padding: 6rem;
+}
+.p-32 {
+  padding: 8rem;
+}
+.p-36 {
+  padding: 9rem;
 }
 .py-4 {
   padding-top: 1rem;
