@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Livewire\Login;
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Welcome;
 
@@ -18,4 +19,4 @@ use App\Http\Livewire\Welcome;
 //     return view('livewire.landing-page');
 // });
 
-Route::get('/', Welcome::class);
+Route::get('/', Login::class);
