@@ -2,6 +2,7 @@
 
 use App\Http\Livewire\Login;
 use App\Http\Livewire\Signup;
+use App\Http\Livewire\Home;
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Welcome;
 

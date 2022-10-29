@@ -10,8 +10,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @livewireStyles
 </head>
-<body>
-    @yield('content')
+<body class="bg-music-dark-gray">
+        @yield('content')
 
     @livewireScripts
 </body>
