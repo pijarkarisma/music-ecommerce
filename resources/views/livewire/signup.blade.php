@@ -39,5 +39,10 @@
                 <input type="text" class="w-full h-8">
             </div>
         </div>
+        <div class="justify-center flex mt-11">
+            <a type="button" class="flex h-14 w-56 lg:w-64 text-center bg-music-red items-center justify-center rounded-[60px]">
+                <p class="text-xl text-white">Sign Up</p>
+            </a>
+        </div>
     </div>
 </div>
