@@ -9,5 +9,11 @@
                 <input type="text" class="w-full h-8">
             </div>
         </div>
+        <div class="justify-center flex">
+            <div class="w-1/3 grid">
+                <p class="text-xl text-white mb-1">Password</p>
+                <input type="text" class="w-full h-8">
+            </div>
+        </div>
     </div>
 </div>
