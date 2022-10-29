@@ -4,10 +4,10 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 
-class LandingPage extends Component
+class Welcome extends Component
 {
     public function render()
     {
-        return view('livewire.landing-page');
+        return view('livewire.welcome')->extends('layouts.app');
     }
 }
