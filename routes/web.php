@@ -20,4 +20,8 @@ use App\Http\Livewire\Welcome;
 //     return view('livewire.landing-page');
 // });
 
-Route::get('/', Signup::class);
+Route::get('/', Welcome::class);
+
+Route::get('/signup', Signup::class)->name('signup');
+
+Route::get('/login', Login::class)->name('login');
