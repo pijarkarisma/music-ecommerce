@@ -21,7 +21,9 @@ use App\Http\Livewire\Welcome;
 //     return view('livewire.landing-page');
 // });
 
-Route::get('/', Welcome::class);
+Route::get('/', Home::class);
+
+Route::get('/welcome', Welcome::class)->name('welcome');
 
 Route::get('/signup', Signup::class)->name('signup');
 
