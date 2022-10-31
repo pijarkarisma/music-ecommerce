@@ -11,7 +11,15 @@
         </div>
         <div class="h-full flex flex-initial content-center justify-end items-center shrink-0">
             <p class="text-white px-4 hidden md:block">Hello, User!</p>
-            <img src="/images/profile_icon.png" alt="profile_icon">
+            <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                <a href="{{ route('logout') }}"
+                onclick="event.preventDefault();
+                this.closest('form').submit();"
+                >
+                    <img src="/images/profile_icon.png" alt="profile_icon">        
+                </a>
+            </form>
         </div>
     </div>
 </div>
