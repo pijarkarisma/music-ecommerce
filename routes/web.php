@@ -19,14 +19,14 @@ use App\Http\Livewire\Welcome;
 */
 
 // Route::get('/', function () {
-//     return view('livewire.landing-page');
+//     return view('welcome');
 // });
 
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth'])->name('dashboard');
 
-
-
-
-Route::get('/', Home::class);
+Route::get('/', Home::class)->middleware(['auth'])->name('home');
 
 Route::get('/welcome', Welcome::class)->name('welcome');
 
@@ -34,4 +34,4 @@ Route::get('/signup', Signup::class)->name('signup');
 
 Route::get('/login', Login::class)->name('login');
 
-
+require __DIR__ . '/auth.php';
