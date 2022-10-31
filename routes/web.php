@@ -4,6 +4,7 @@ use App\Http\Livewire\Login;
 use App\Http\Livewire\Signup;
 use App\Http\Livewire\Home;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 use App\Http\Livewire\Welcome;
 
 /*
@@ -21,6 +22,10 @@ use App\Http\Livewire\Welcome;
 //     return view('livewire.landing-page');
 // });
 
+
+
+
+
 Route::get('/', Home::class);
 
 Route::get('/welcome', Welcome::class)->name('welcome');
@@ -28,3 +33,5 @@ Route::get('/welcome', Welcome::class)->name('welcome');
 Route::get('/signup', Signup::class)->name('signup');
 
 Route::get('/login', Login::class)->name('login');
+
+

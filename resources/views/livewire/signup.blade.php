@@ -18,7 +18,7 @@
         </div>
         <div class="justify-center flex">
             <div class="w-1/3 grid">
-                <p class="text-xl text-white mb-1">Email Address</p>
+                <p class="text-xl text-white mb-1" wire:model.defer="email">Email Address</p>
                 <input type="text" class="w-full h-8" id="email">
             </div>
         </div>
@@ -31,20 +31,22 @@
         <div class="justify-center flex">
             <div class="w-1/3 grid">
                 <p class="text-xl text-white mb-1">Password</p>
-                <input type="text" class="w-full h-8" id="password">
+                <input type="password" class="w-full h-8" id="password" wire:model.defer="password">
             </div>
         </div>
         <div class="justify-center flex">
             <div class="w-1/3 grid">
                 <p class="text-xl text-white mb-1">Confirm Password</p>
-                <input type="text" class="w-full h-8" id="password_confirmation">
+                <input type="password" class="w-full h-8" id="password_confirmation" wire:model.defer="password_confirmation">
             </div>
         </div>
+        <a href="{{route('login')}}" class="justify-center flex mt-9  text-primary text-white">Sudah punya akun?</a>
         <div class="justify-center flex mt-11">
             <button type="submit" class="flex h-14 w-56 lg:w-64 text-center bg-music-red items-center justify-center rounded-[60px] text-white">Sign Up</button>
 
             </a>
         </div>
+        
     </form>
     </div>
 </div>

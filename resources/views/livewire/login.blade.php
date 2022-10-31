@@ -7,13 +7,13 @@
             <div class="justify-center flex">
                 <div class="w-1/3 grid">
                     <p class="text-xl text-white mb-1">E-mail Address</p>
-                    <input type="text" class="w-full h-8" placeholder="name@example.com" id="email">
+                    <input type="password" class="w-full h-8" placeholder="name@example.com" id="email">
                 </div>
             </div>
             <div class="justify-center flex">
                 <div class="w-1/3 grid">
                     <p class="text-xl text-white mb-1">Password</p>
-                    <input type="text" class="w-full h-8" placeholder="*****" id="password">
+                    <input type="password" class="w-full h-8" placeholder="*****" id="password">
                 </div>
             </div>
             <a href="{{route('signup')}}" class="justify-center flex mt-9  text-primary text-white">Belum punya akun?</a>
