@@ -10,6 +10,6 @@ class Home extends Component
 
     public function render()
     {
-        return view('livewire.home')->extends('layouts.app');
+        return view('livewire.home')->extends('layouts.master');
     }
 }

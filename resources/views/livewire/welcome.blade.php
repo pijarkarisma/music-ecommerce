@@ -8,7 +8,7 @@
         <p class="mb-24 text-white text-center text-3xl sm:text-4xl font-semibold">Welcome to<br>Karisma Music Store!</p>
         
         <div class="grid gap-y-6">
-            <a href="{{ route('signup') }}" type="button" class="flex h-14 w-56 lg:w-64 text-center bg-music-red items-center justify-center rounded-[60px]">
+            <a href="{{ route('register') }}" type="button" class="flex h-14 w-56 lg:w-64 text-center bg-music-red items-center justify-center rounded-[60px]">
                 <p class="text-xl text-white">Sign Up</p>
             </a>
             <a href="{{ route('login') }}" type="button" class="flex h-14 w-56 lg:w-64 text-center bg-music-stone items-center justify-center rounded-[60px]">
