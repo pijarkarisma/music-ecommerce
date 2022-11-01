@@ -1,14 +1,13 @@
-const buttonRight = document.getElementById('slideRight')
-const buttonLeft = document.getElementById('slideLeft')
-const container = document.getElementById('productHomeContainer')
+const currentScript = document.currentScript.getAttribute('sectionId')
+const buttonRight = document.getElementById(`slideRight-${currentScript}`)
+const buttonLeft = document.getElementById(`slideLeft-${currentScript}`)
+const container = document.getElementById(`productHomeContainer-${currentScript}`)
 
-buttonRight.onclick = function () {
-    smoothScroll(container, 'right', 15, 300, 20)
-    // document.getElementById('productHomeContainer').scrollLeft += 240
+document.getElementById(`slideRight-${document.currentScript.getAttribute('sectionId')}`).onclick = function () {
+    smoothScroll(document.getElementById(`productHomeContainer-${document.currentScript.getAttribute('sectionId')}`), 'right', 15, 300, 20)
 }
-buttonLeft.onclick = function () {
-    smoothScroll(container, 'left', 15, 300, 20)
-    // document.getElementById('productHomeContainer').scrollLeft -= 240
+document.getElementById(`slideLeft-${document.currentScript.getAttribute('sectionId')}`).onclick = function () {
+    smoothScroll(document.getElementById(`productHomeContainer-${document.currentScript.getAttribute('sectionId')}`), 'left', 15, 300, 20)
 }
 
 function smoothScroll(element, direction, speed, distance, step) {

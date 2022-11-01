@@ -6,6 +6,6 @@
     </div>
 
     <div class="px-16">
-        @livewire('product-category-section')
+        @livewire('product-category')
     </div>
 </div>

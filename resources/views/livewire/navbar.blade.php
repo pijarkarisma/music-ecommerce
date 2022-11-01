@@ -10,7 +10,7 @@
             <img src="/images/shoppingcart_icon.png" alt="profile_icon">
         </div>
         <div class="h-full flex flex-initial content-center justify-end items-center shrink-0">
-            <p class="text-white px-4 hidden md:block">Hello, User!</p>
+            <p class="text-white px-4 hidden md:block">Hello, {{$currentUser}}!</p>
             <div class="dropdown relative">
                 <a class="dropdown-toggle" href="" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="/images/profile_icon.png" alt="profile_icon">
