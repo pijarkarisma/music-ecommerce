@@ -6,11 +6,11 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Product;
 
-class Category extends Model
+class Inventory extends Model
 {
     use HasFactory;
 
-    public $table = "category";
+    public $table = "inventory";
 
     public function product()
     {
