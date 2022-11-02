@@ -12,6 +12,6 @@ class ProductCategory extends Component
     public function render()
     {
         $this->categories = Category::all();
-        return view('livewire.payment');
+        return view('livewire.product-category');
     }
 }
