@@ -34,4 +34,6 @@ Route::get('/signup', Signup::class)->name('signup');
 
 Route::get('/login', Login::class)->name('login');
 
+Route::get('/payment', Login::class)->name('payment');
+
 require __DIR__ . '/auth.php';
