@@ -12,6 +12,16 @@ class ShoppingCart extends Model
 
     public $table = "shopping_cart";
 
+    protected $fillable = [
+        'id',
+        'user_id',
+        'product_id',
+        'quantity',
+        'total',
+        'created_at',
+        'updated_at'
+    ];
+
     public function product()
     {
         return $this->belongsTo(Product::class);

@@ -695,6 +695,10 @@ select {
   margin-left: auto;
   margin-right: auto;
 }
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -778,6 +782,12 @@ select {
 }
 .mb-3 {
   margin-bottom: 0.75rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
+}
+.mb-20 {
+  margin-bottom: 5rem;
 }
 .block {
   display: block;
@@ -1042,6 +1052,14 @@ select {
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
 }
+.gap-x-20 {
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+}
+.gap-x-16 {
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+}
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
@@ -1103,6 +1121,12 @@ select {
 }
 .rounded-tr-lg {
   border-top-right-radius: 0.5rem;
+}
+.rounded-bl-lg {
+  border-bottom-left-radius: 0.5rem;
+}
+.rounded-br-lg {
+  border-bottom-right-radius: 0.5rem;
 }
 .border {
   border-width: 1px;
@@ -1191,6 +1215,14 @@ select {
 .fill-current {
   fill: currentColor;
 }
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .p-2 {
   padding: 0.5rem;
 }
@@ -1260,6 +1292,10 @@ select {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 .pr-6 {
   padding-right: 1.5rem;
