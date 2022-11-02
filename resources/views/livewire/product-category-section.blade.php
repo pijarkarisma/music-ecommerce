@@ -50,15 +50,18 @@
                 <table border="0">
                   <td>
                     <ul style="list-style-type:none">
+                        <!-- GAMBAR DISINI -->
                       <img src={{ $product->image_path }} alt="">
                     </ul>
                   </td>
                   <td>
                     <ul style="list-style-type:none">
                       <li>
+                        <!-- Deskripsi disini -->
                          <p>{{ $product->desc }}</p>
                       </li>
                       <li class="mt-5">
+                        <!-- Harga disini -->
                         <p class="">@convert($product->price)</p>
                       </li>
                     </ul>
