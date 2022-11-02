@@ -3,6 +3,7 @@
 use App\Http\Livewire\Login;
 use App\Http\Livewire\Signup;
 use App\Http\Livewire\Home;
+use App\Http\Livewire\ShoppingCart;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Livewire\Welcome;
@@ -34,6 +35,8 @@ Route::get('/signup', Signup::class)->name('signup');
 
 Route::get('/login', Login::class)->name('login');
 
-Route::get('/payment', Login::class)->name('payment');
+// Route::get('/payment', Login::class)->name('payment');
+
+Route::get('/shopping-cart', ShoppingCart::class)->name('shopping.cart');
 
 require __DIR__ . '/auth.php';
