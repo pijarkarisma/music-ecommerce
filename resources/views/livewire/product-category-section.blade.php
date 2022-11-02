@@ -9,7 +9,7 @@
         <div id="productHomeContainer-{{ $category_id }}" class="grid grid-flow-col gap-16 w-full justify-start overflow-auto scrollbar-hide">
             @foreach ($products as $index => $product)
             <div class="w-52 snap-center">
-                <img src="/images/piano/yamaha_piano.jpg" alt="" class="h-52">
+                <img src="{{ $product->image_path }}" alt="" class="h-52">
                 <p class="text-lg text-white pt-7 pb-2 truncate">{{ $product->name }}</p>
                 <p class="text-xl text-white font-semibold pb-2">@convert($product->price)</p>
                 <a href="" type="button" class="flex h-10 w-full text-center bg-music-red hover:bg-red-600 items-center justify-center rounded-[60px]">

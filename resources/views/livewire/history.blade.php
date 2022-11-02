@@ -118,38 +118,75 @@ span.price {
       
         <div class="row">
           <div class="col-50">
-            <h3>Address and Contact Details</h3><br>
-            <label for="fname"><i class=""></i> province</label><br>
-            <input type="text" id="fname" name="firstname" placeholder="Keivan Roin">
-            <label for="email"><i class=""></i> City</label>
-            <input type="text" id="email" name="email" placeholder="Tangerang">
-            <label for="adr"><i class=""></i> Address</label>
-            <input type="text" id="adr" name="address" placeholder="Jl. mawar no.2">
-            <label for="city"><i class=""></i> Zip code</label>
-            <input type="text" id="city" name="city" placeholder="61021">
-            <label for="city"><i class=""></i> Email Address</label>
-            <input type="text" id="city" name="city" placeholder="hello@gmail.com">
-            <label for="city"><i class=""></i> Phone Number</label>
-            <input type="text" id="city" name="city" placeholder="0812345678">
+            <br>
+            <br>
+            <table style="width:100%">
+                <tr>
+                    
+                  </tr>
+                <tr>
+                  <th><img src="/img/A1.jpg" alt="" class=""></th>
+                  <th>Product Name</th>
+                  <td>Qty:1</td>
+                  <td>Rp1.0000.000</td>
 
-            <div class="row">
-              <div class="col-50">
-                <label for="state">Payment Method</label>
-                <select name="dog-names" id="dog-names">
-                <option value="rigatoni">Ovo</option>
-                <option value="dave">Gopay</option>
-                <option value="pumpernickel">Shopee</option>
-                </select>
-              </div>
-              <div class="col-50">
-                
-              </div>
-            </div>
+                </tr>
+
+              </table>
+              <br>
+              <br>
+              <table style="width:100%">
+                <tr>
+                    
+                  </tr>
+                <tr>
+                  <th><img src="/img/A1.jpg" alt="" class=""></th>
+                  <th>Product Name</th>
+                  <td>Qty:1</td>
+                  <td>Rp1.0000.000</td>
+
+                </tr>
+
+              </table>
+              <br>
+              <br>
+              <hr style="width:470px;height:5px;border-width:0;color:rgb(8, 6, 6);background-color:rgb(5, 4, 4)">
+              <br>
+              <br>
+
+              <table style="width:100%">
+                <tr>
+                    
+                  </tr>
+                <tr>
+                  <th><img src="/img/A1.jpg" alt="" class=""></th>
+                  <th>Product Name</th>
+                  <td>Qty:1</td>
+                  <td>Rp1.0000.000</td>
+
+                </tr>
+
+              </table>
+              <br>
+              <br>
+              <table style="width:100%">
+                <tr>
+                    
+                  </tr>
+                <tr>
+                  <th><img src="/img/A1.jpg" alt="" class=""></th>
+                  <th>Product Name</th>
+                  <td>Qty:1</td>
+                  <td>Rp1.0000.000</td>
+
+                </tr>
+
+              </table>
           </div>
-
+          
           <div class="col-50">
             
-           
+          
           </div>
           
         </div>
@@ -161,17 +198,7 @@ span.price {
     </div>
   </div>
   <div class="col-25">
-    <div class="container">
-      <h4 style="text-align:center">Your Order <span class="price" style="color:black"><i class="fa fa-shopping-cart" ></i> </span></h4><br>
-      <hr>
-      <p><a href="#">Yahama Guitar</a> <span class="price">Rp.1.000.000</span></p>
-      <p><a href="#">Qty :1</a> </p><br>
-      <hr>
-      <p><a href="#">Subtotal</a> <span class="price">Rp.2.000.000</span></p><br>
-      <p><a href="#">Delivery Fee</a> <span class="price">Rp. 24.000</span></p><br>
-      <hr>
-      <p>Total <span class="price" style="color:black"><b>2.024.000</b></span></p><br>
-    </div>
+   
   </div>
 </div>
 
